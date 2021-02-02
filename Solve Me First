@@ -1,0 +1,9 @@
+// Complete the function solveMeFirst to compute the sum of two integers.
+
+def solveMeFirst(a,b):
+
+  n1 = int(input())
+  n2 = int(input())
+  result = solveMeFirst(n1, n2)
+  
+  print(result)
