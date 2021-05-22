@@ -1,0 +1,10 @@
+# Given the meal price (base cost of meal), tip percent (the percentage of the meal being added as tip), and tax percent (the percentage of the meal price being
+# added as tax)for a meal, find and print the meal's total cost. Round the rest to the nearest integer.
+
+
+def solve(meal_cost, Tip_percent, tax_percent):
+  tip = (meal_cost / 100.00) * tip_percent
+  tax = (tax_percent / 100.00) * meal_cost
+  total = meal_cost + tip + tax
+  
+  print(int(round(total))
